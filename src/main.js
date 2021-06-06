@@ -1,8 +1,24 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import store from './store'
+import router from './router'
+import vuetify from './plugins/vuetify'
+import vueAwesomeCountdown from 'vue-awesome-countdown'
+import { Datetime } from 'vue-datetime'
+// You need a specific loader for CSS files
+import 'vue-datetime/dist/vue-datetime.css'
+ 
+Vue.use(Datetime)
+ 
+Vue.component('datetime', Datetime);
 Vue.config.productionTip = false
 
+
+
+Vue.use(vueAwesomeCountdown, 'vac') 
 new Vue({
-  render: h => h(App),
+  store,
+  router,
+  vuetify,
+  render: h => h(App)
 }).$mount('#app')
