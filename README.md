@@ -19,8 +19,11 @@ yarn build
 ```
 yarn lint
 ```
+
+### DApp URL
+ https://cocky-blackwell-50d984.netlify.app
 ### Screenshots
-1. 
+
 ### Contract Details
 
 1. BiddingContract - 0xb882AdE16D6B132B8C2530da204E35aC2dF9411a

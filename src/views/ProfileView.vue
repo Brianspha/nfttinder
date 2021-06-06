@@ -519,11 +519,12 @@ export default {
         );
         this.step--;
       }
-      this.$store.state.isLoading = false;
+      
     },
     transferOwnership() {
-      this.$store.state.isLoading = true;
+      
       if (this.$refs.form.validate()) {
+        this.$store.state.isLoading = true;
         let _this = this;
         this.$store.state.tokenContract.methods
           .transferFrom(
@@ -554,7 +555,7 @@ export default {
       } else {
         console.log("not valid");
       }
-      this.$store.state.isLoading = false;
+      //this.$store.state.isLoading = false;
     },
     mintNFT: async function() {
       this.$store.state.isLoading = true;
