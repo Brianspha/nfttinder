@@ -36,7 +36,7 @@
                   :color="$store.state.purpleColor"
                   v-model="nftValue"
                   :rules="priceRules"
-                  label="NFT Value"
+                  label="NFT Value in Eth"
                   required
                 ></v-text-field>
                 <v-file-input
