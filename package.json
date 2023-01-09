@@ -15,7 +15,7 @@
     "dotenv": "^10.0.0",
     "ether-converter": "^0.0.13",
     "lorem-ipsum": "^2.0.3",
-    "luxon": "^1.27.0",
+    "luxon": "^2.5.2",
     "moment": "^2.29.1",
     "skynet-js": "^3.0.2",
     "sweetalert2": "^11.0.11",
